@@ -5,34 +5,30 @@
     <div id="Reservations"></div>
     <div id = "Reviews"></div>
     <div id = "Recommendations"></div>
-    <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> -->
-    <!-- <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
     <script src ="http://localhost:3001/bundle.js" crossorigin></script>
-    <script src="http://localhost:3002/bundle.js" crossorigin></script>
-    <script src="http://localhost:3003/main.js" crossorigin></script>
-    <script src="http://localhost:3004/main.js" crossorigin></script>
-
+    <!-- <script src="http://18.219.238.14:3002/bundle.js" crossorigin></script>
+    <script src="http://localhost:3003/main.js" crossorigin></script> -->
+    <script src="http://ec2-52-53-214-90.us-west-1.compute.amazonaws.com:3004/main.js"></script>
+ 
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
     <script>
       const { React, ReactDOM, App: Recommendations} = RecommendationsModule;
-      // console.log(RecommendationsModule);
-
       ReactDOM.render(
         React.createElement(Reservations.default),
         document.getElementById('Reservations')
       );
-      ReactDOM.render(
-        React.createElement(photoGallery.default),
-        document.getElementById('Photo-Gallery')
-      );
-      ReactDOM.render(
-        React.createElement(Reviews.default),
-        document.getElementById('Reviews')
-      );
+      // ReactDOM.render(
+      //   React.createElement(photoGallery.default),
+      //   document.getElementById('Photo-Gallery')
+      // );
+      // ReactDOM.render(
+      //   React.createElement(Reviews.default),
+      //   document.getElementById('Reviews')
+      // );
       ReactDOM.render(
         React.createElement(Recommendations),
         document.getElementById('Recommendations')
-      )
+      );
     </script>
   </body>
 </html>
