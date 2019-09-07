@@ -17,7 +17,7 @@
     "babel-loader": "^8.0.6",
     "gulp": "^4.0.2",
     "install": "^0.13.0",
-    "nodemon": "^1.19.2",
+    "node": "^1.19.2",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   },
