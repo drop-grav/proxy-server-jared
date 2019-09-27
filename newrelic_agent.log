@@ -2042,3 +2042,813 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"jared-G3-3579","pid":14675,"time":"2019-09-26T22:06:32.137Z","msg":"Harvest finished."}
 {"v":0,"level":30,"name":"newrelic","hostname":"jared-G3-3579","pid":14675,"time":"2019-09-26T22:07:31.908Z","msg":"Harvest started."}
 {"v":0,"level":30,"name":"newrelic","hostname":"jared-G3-3579","pid":14675,"time":"2019-09-26T22:07:32.139Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:25.900Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:25.999Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.000Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.000Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.000Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.680Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.680Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BY4BmG2OpS3BACXY0Au-_8hdjU6oAAgBAAAnIQEAABGgAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.681Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:26.688Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:27.689Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4512,"time":"2019-09-26T23:48:27.747Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:55.657Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:55.756Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:55.757Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:55.757Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:55.758Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:56.428Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:56.429Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BTe3IZiMkeGPACXY0Au-_8hdjU7kAAgBAAAnIQEAABG5AgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:56.429Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:56.436Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:57.438Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:49:57.495Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:50:57.440Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4537,"time":"2019-09-26T23:50:57.507Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.180Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.281Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.282Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.283Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.283Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.953Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.953Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BQDia0akC48PACXY0Au-_8hdjU_UAAgBAAAnIQEAABH3AgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.954Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:18.961Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:19.963Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:53:20.021Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:54:19.966Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:54:20.035Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:55:19.968Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:55:20.024Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:56:19.970Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:56:20.026Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:57:19.972Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:57:20.027Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:58:19.974Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:58:20.041Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:59:19.976Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-26T23:59:20.045Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:00:19.978Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:00:20.051Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:01:19.980Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:01:20.037Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:02:19.982Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:02:20.035Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:03:19.984Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:03:20.048Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:04:19.986Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:04:20.051Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:05:19.988Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:05:20.057Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:06:19.990Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:06:20.047Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:07:19.992Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:07:20.046Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:08:19.993Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:08:20.060Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:09:19.996Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:09:20.050Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:10:19.998Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:10:20.066Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:11:20.000Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:11:20.073Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:12:20.002Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:12:20.054Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:13:20.003Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:13:20.059Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:14:20.004Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4599,"time":"2019-09-27T00:14:20.070Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:19.819Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:19.920Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:19.921Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:19.921Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:19.922Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:20.603Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:20.603Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BXNzTPz6jWN0ACXY0Au-_8hdjVZkAAgBAAAnIQEAABJbAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:20.603Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:20.611Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:21.613Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:21:21.670Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:22:21.616Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:22:21.674Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:23:21.618Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:23:21.673Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:24:21.620Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:24:21.677Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:25:21.622Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:25:21.679Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:26:21.624Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:26:21.692Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:27:21.627Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:27:21.692Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:28:21.630Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:28:21.683Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:29:21.633Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:29:21.691Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:30:21.634Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:30:21.689Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:31:21.637Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:31:21.690Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:32:21.639Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:32:21.706Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:33:21.641Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:33:21.698Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:34:21.643Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:34:21.698Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:35:21.645Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:35:21.698Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:36:21.646Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:36:21.698Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:37:21.647Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:37:21.702Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:38:21.648Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:38:21.703Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:39:21.650Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:39:21.707Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:40:21.652Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:40:21.705Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:41:21.654Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:41:21.707Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:42:21.655Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:42:21.710Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:43:21.657Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:43:21.709Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:44:21.658Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:44:21.710Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:45:21.659Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:45:21.716Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:46:21.660Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:46:21.719Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:47:21.661Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:47:21.717Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:48:21.662Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:48:21.719Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:49:21.662Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:49:21.715Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:50:21.663Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:50:21.718Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:51:21.664Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:51:21.717Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:52:21.665Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:52:21.719Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:53:21.666Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:53:21.715Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:54:21.667Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:54:21.723Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:55:21.667Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:55:21.722Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:56:21.669Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:56:21.721Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:57:21.670Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:57:21.727Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:58:21.670Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:58:21.724Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:59:21.671Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T00:59:21.728Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:00:21.672Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:00:21.730Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:01:21.673Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:01:21.726Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:02:21.675Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:02:21.729Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:03:21.676Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:03:21.736Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:04:21.679Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:04:21.733Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:05:21.679Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:05:21.735Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:06:21.681Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:06:21.732Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:07:21.681Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:07:21.734Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:08:21.684Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:08:21.736Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:09:21.686Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:09:21.741Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:10:21.688Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:10:21.743Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:11:21.689Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:11:21.743Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:12:21.690Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:12:21.743Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:13:21.693Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:13:21.763Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:14:21.694Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:14:21.760Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:15:21.696Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:15:21.751Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:16:21.697Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:16:21.757Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:17:21.698Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:17:21.756Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:18:21.699Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:18:21.757Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:19:21.702Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4699,"time":"2019-09-27T01:19:21.757Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:17.400Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:17.501Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:17.503Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:17.503Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:17.503Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:18.172Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:18.172Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BRBR3EbTm4XlACXY0Au-_8hdjWQ4AAgBAAAnIQEAABL3AgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:18.172Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:18.180Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:19.182Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4855,"time":"2019-09-27T01:20:19.236Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:27.676Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:27.776Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:27.778Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:27.778Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:27.778Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:28.455Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:28.455Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID Bd9xdLiNEkyZACXY0Au-_8hdjWR0AAgBAAAnIQEAABMPAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:28.455Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:28.463Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:29.465Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:21:29.519Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:22:29.467Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:22:29.535Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:23:29.469Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:23:29.469Z","msg":"Dropped 2085 of 12085 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:23:29.469Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:23:30.117Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:24:29.469Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:24:29.470Z","msg":"Dropped 7911 of 17911 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:24:29.470Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:24:30.160Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:25:29.473Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:25:29.474Z","msg":"Dropped 5010 of 15010 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:25:29.474Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:25:30.062Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:26:29.474Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:26:29.537Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:27:29.477Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:27:29.532Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:28:30.130Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:28:45.863Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:29:30.133Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:29:30.135Z","msg":"Dropped 37140 of 47140 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:29:30.135Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:29:30.704Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:30:30.135Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:30:30.194Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:31:30.137Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:31:30.193Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:32:30.138Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:32:30.189Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:33:30.138Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:33:30.191Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:34:30.140Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:34:30.195Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:35:30.141Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:35:30.193Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:36:30.142Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:36:30.182Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:37:30.143Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:37:30.197Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:38:30.144Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:38:30.202Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:39:30.147Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:39:30.203Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:40:30.148Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:40:30.200Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:41:30.150Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:41:30.208Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:42:30.151Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:42:30.207Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:43:30.152Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:43:30.209Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:44:30.154Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:44:30.206Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:45:30.155Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:45:30.210Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:46:30.156Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:46:30.212Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:47:30.156Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:47:30.213Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:48:30.157Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:48:30.211Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:49:30.158Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:49:30.213Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:50:30.159Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:50:30.215Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:51:30.161Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:51:30.214Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:52:30.161Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:52:30.213Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:53:30.162Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:53:30.221Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:54:30.164Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:54:30.219Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:55:30.165Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:55:30.219Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:56:30.166Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:56:30.222Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:57:30.167Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:57:30.223Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:58:30.168Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:58:30.221Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:59:30.169Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T01:59:30.223Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:00:30.169Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:00:30.225Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:01:30.171Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:01:30.226Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:02:30.172Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:02:30.225Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:03:30.172Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:03:30.226Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:04:30.173Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:04:30.229Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:05:30.174Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:05:30.230Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:06:30.175Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:06:30.228Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:07:30.176Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:07:30.232Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:08:30.176Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:08:30.229Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:09:30.177Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:09:30.233Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:10:30.178Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:10:30.235Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:11:30.179Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:11:30.234Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:12:30.179Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:12:30.234Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:13:30.179Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:13:30.232Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:14:30.180Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:14:30.234Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:15:30.181Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":4879,"time":"2019-09-27T02:15:30.236Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:13.967Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.069Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.070Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.070Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.070Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.752Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.752Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BUbb-e_cfLvsACXY0Au-_8hdjXIMAAgBAAAnIQEAABOPAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.752Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:14.760Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:15.762Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5007,"time":"2019-09-27T02:19:15.818Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:05.378Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:05.478Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:05.479Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:05.480Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:05.480Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:06.151Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:06.151Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BS5baavPVazpACXY0Au-_8hdjXJIAAgBAAAnIQEAABOmAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:06.151Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:06.159Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:07.161Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:20:07.219Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:21:07.163Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5030,"time":"2019-09-27T02:21:07.231Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.151Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.249Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.250Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.251Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.251Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.898Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.898Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BTnOP73ig6AVACXY0Au-_8hdjXN0AAgBAAAnIQEAABO-AgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.898Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:37.905Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:38.907Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:25:38.960Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:26:38.910Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:26:38.975Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:27:38.912Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:27:38.968Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:28:39.234Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:28:53.220Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:29:39.238Z","msg":"Harvest started."}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:29:39.240Z","msg":"Dropped 37767 of 47767 datapoints for analyticsEvents.","component":"Harvest"}
+{"v":0,"level":40,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:29:39.240Z","msg":"You may want to increase the limits for this event type.","component":"Harvest"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:29:39.808Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:30:39.240Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:30:39.297Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:31:39.242Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:31:39.296Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:32:39.243Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:32:39.298Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:33:39.244Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:33:39.297Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:34:39.244Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:34:39.298Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:35:39.245Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:35:39.297Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:36:39.246Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:36:39.298Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:37:39.247Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5054,"time":"2019-09-27T02:37:39.300Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:22.860Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:22.960Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:22.962Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:22.962Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:22.962Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:23.629Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:23.630Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BfSYbXmTWiTTACXY0Au-_8hdjXdwAAgBAAAnIQEAABP-AgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:23.630Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:23.637Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:24.640Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:42:24.695Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:43:24.643Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:43:24.700Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:44:24.645Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:44:24.699Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:45:24.648Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:45:24.700Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:46:24.650Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:46:24.701Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:47:24.652Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:47:24.704Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:48:24.654Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:48:24.709Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:49:24.655Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:49:24.713Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:50:24.658Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:50:24.712Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:51:24.660Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:51:24.712Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:52:24.662Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:52:24.717Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:53:24.664Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:53:24.719Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:54:24.666Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:54:24.721Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:55:24.668Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:55:24.723Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:56:24.670Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:56:24.727Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:57:24.672Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:57:24.725Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:58:24.674Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:58:24.728Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:59:24.676Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T02:59:24.730Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:00:24.676Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:00:24.730Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:01:24.678Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:01:24.734Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:02:24.679Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:02:24.733Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:03:24.680Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:03:24.736Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:04:24.682Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:04:24.738Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:05:24.684Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:05:24.738Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:06:24.685Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:06:24.740Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:07:24.686Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:07:24.741Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:08:24.687Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:08:24.740Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:09:24.687Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:09:24.739Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:10:24.688Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:10:24.744Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:11:24.689Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:11:24.748Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:12:24.690Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:12:24.747Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:13:24.691Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:13:24.743Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:14:24.692Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:14:24.750Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:15:24.693Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:15:24.748Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:16:24.693Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:16:24.734Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:17:24.695Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:17:24.749Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:18:24.695Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:18:24.748Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:19:24.696Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:19:24.752Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:20:24.696Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:20:24.750Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:21:24.697Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:21:24.756Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:22:24.698Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:22:24.751Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:23:24.701Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:23:24.756Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:24:24.703Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:24:24.756Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:25:24.704Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:25:24.761Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:26:24.707Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:26:24.760Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:27:24.708Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:27:24.762Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:28:24.710Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:28:24.764Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:29:24.713Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:29:24.770Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:30:24.714Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:30:24.765Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:31:24.715Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:31:24.768Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:32:24.716Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:32:24.769Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:33:24.719Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:33:24.774Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:34:24.721Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:34:24.775Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:35:24.721Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:35:24.776Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:36:24.722Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:36:24.776Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:37:24.723Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:37:24.776Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:38:24.725Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:38:24.779Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:39:24.726Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:39:24.778Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:40:24.727Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:40:24.785Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:41:24.730Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:41:24.788Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:42:24.732Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:42:24.785Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:43:24.733Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:43:24.788Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:44:24.734Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:44:24.787Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:45:24.735Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:45:24.789Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:46:24.737Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:46:24.792Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:47:24.738Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:47:24.791Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:48:24.741Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:48:24.796Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:49:24.743Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:49:24.795Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:50:24.745Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:50:24.797Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:51:24.746Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:51:24.799Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:52:24.748Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:52:24.800Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:53:24.749Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:53:24.802Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:54:24.751Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:54:24.806Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:55:24.754Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:55:24.808Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:56:24.755Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:56:24.809Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:57:24.758Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:57:24.814Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:58:24.759Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:58:24.815Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:59:24.760Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T03:59:24.813Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:00:24.762Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:00:24.822Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:01:24.763Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:01:24.819Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:02:24.764Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:02:24.818Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:03:24.765Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:03:24.817Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:04:24.765Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:04:24.819Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:05:24.766Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:05:24.824Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:06:24.767Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:06:24.820Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:07:24.768Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:07:24.822Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:08:24.770Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:08:24.823Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:09:24.771Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:09:24.826Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:10:24.772Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:10:24.825Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:11:24.773Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:11:24.826Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:12:24.774Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:12:24.834Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:13:24.776Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:13:24.833Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:14:24.778Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:14:24.832Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:15:24.779Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:15:24.832Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:16:24.781Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:16:24.836Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:17:24.782Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:17:24.836Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:18:24.782Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:18:24.838Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:19:24.783Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:19:24.837Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:20:24.784Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:20:24.836Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:21:24.785Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:21:24.839Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:22:24.786Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:22:24.841Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:23:24.787Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:23:24.840Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:24:24.788Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:24:24.843Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:25:24.789Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:25:24.844Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:26:24.790Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:26:24.845Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:27:24.791Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:27:24.846Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:28:24.792Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:28:24.849Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:29:24.793Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:29:24.846Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:30:24.793Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:30:24.847Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:31:24.794Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:31:24.847Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:32:24.796Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:32:24.851Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:33:24.797Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:33:24.851Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:34:24.797Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:34:24.852Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:35:24.798Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:35:24.854Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:36:24.799Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:36:24.851Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:37:24.802Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:37:24.857Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:38:24.802Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:38:24.857Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:39:24.802Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:39:24.858Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:40:24.803Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:40:24.857Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:41:24.804Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:41:24.857Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:42:24.805Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:42:24.862Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:43:24.807Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:43:24.860Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:44:24.808Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:44:24.878Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:45:24.809Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:45:24.864Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:46:24.810Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:46:24.862Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:47:24.811Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:47:24.868Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:48:24.812Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:48:24.869Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:49:24.814Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:49:24.869Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:50:24.816Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:50:24.872Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:51:24.817Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:51:24.870Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:52:24.818Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:52:24.870Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:53:24.820Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:53:24.872Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:54:24.820Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":5118,"time":"2019-09-27T04:54:24.873Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.164Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.267Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.268Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.268Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.268Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.945Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.945Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID Bd_0WCuL5qLhACXY0Au-_8hdjmKEAAgBAAAnIQEAAG7yAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.945Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:56.953Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:57.954Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:25:58.013Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:26:57.956Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:26:58.013Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:27:57.959Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:27:58.011Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:28:57.961Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:28:58.016Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:29:57.963Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:29:58.018Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:30:57.965Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:30:58.023Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:31:57.967Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:31:58.021Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:32:57.969Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:32:58.023Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:33:57.971Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:33:58.026Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:34:57.972Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:34:58.025Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:35:57.974Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:35:58.029Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:36:57.976Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:36:58.029Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:37:57.977Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:37:58.033Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:38:57.979Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:38:58.036Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:39:57.981Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:39:58.036Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:40:57.982Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:40:58.026Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:41:57.983Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:41:58.039Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:42:57.985Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:42:58.041Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:43:57.987Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:43:58.043Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:44:57.988Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:44:58.043Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:45:57.990Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:45:58.042Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:46:57.992Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:46:58.047Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:47:57.993Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:47:58.047Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:48:57.996Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:48:58.054Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:49:57.997Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:49:58.051Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:50:57.997Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:50:58.055Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:51:58.000Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:51:58.053Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:52:58.001Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:52:58.060Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:53:58.002Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:53:58.057Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:54:58.003Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:54:58.060Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:55:58.004Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:55:58.058Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:56:58.004Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:56:58.062Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:57:58.005Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:57:58.063Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:58:58.007Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:58:58.062Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:59:58.008Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T19:59:58.063Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:00:58.009Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:00:58.062Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:01:58.010Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:01:58.065Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:02:58.010Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:02:58.066Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:03:58.010Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:03:58.066Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:04:58.011Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:04:58.068Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:05:58.012Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:05:58.067Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:06:58.013Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:06:58.069Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:07:58.019Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:07:58.077Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:08:58.021Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:08:58.074Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:09:58.024Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:09:58.075Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:10:58.026Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:10:58.081Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:11:58.028Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28402,"time":"2019-09-27T20:11:58.086Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:48.796Z","msg":"Using New Relic for Node.js. Agent version: 5.11.0; Node version: v12.11.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:48.896Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:48.897Z","msg":"Not adding native metric sampler.","component":"sampler","error":{"message":"Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js","stack":"Error: Cannot find module '@newrelic/native-metrics'\nRequire stack:\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js\n- /home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js\n- /home/ec2-user/proxy-server-jared/server/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:780:15)\n    at Function.wrappedResolveFilename [as _resolveFilename] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:349:42)\n    at Function.Module._load (internal/modules/cjs/loader.js:685:27)\n    at Function.wrappedLoad [as _load] (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/shimmer.js:360:24)\n    at Module.require (internal/modules/cjs/loader.js:838:19)\n    at require (internal/modules/cjs/helpers.js:74:18)\n    at Object.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/sampler.js:163:30)\n    at Agent.start (/home/ec2-user/proxy-server-jared/node_modules/newrelic/lib/agent.js:139:11)\n    at createAgent (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:147:9)\n    at initialize (/home/ec2-user/proxy-server-jared/node_modules/newrelic/index.js:75:15)"}}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:48.898Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:48.898Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:49.577Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:49.577Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BRuSpKzvTwbWACXY0Au-_8hdjm4AAAgBAAAnIQEAAG9pAgQLqJ6sAwAGNS4xMS4wABBpcC0xNzItMzEtMzEtMTExAA9kcm9wLmdyYXYgcHJveHk.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:49.578Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2480336/applications/195600044","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:49.585Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:50.587Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:14:50.666Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:15:50.589Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:15:50.655Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:16:50.591Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:16:50.661Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:17:50.593Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:17:50.649Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:18:50.595Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:18:50.650Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:19:50.597Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:19:50.651Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:20:50.599Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:20:50.657Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:21:50.601Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:21:50.655Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:22:50.602Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:22:50.672Z","msg":"Harvest finished."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:23:50.604Z","msg":"Harvest started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"ip-172-31-31-111","pid":28521,"time":"2019-09-27T20:23:50.669Z","msg":"Harvest finished."}
